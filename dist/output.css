@@ -562,6 +562,14 @@ video {
   margin: auto;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -576,6 +584,10 @@ video {
 
 .w-32 {
   width: 8rem;
+}
+
+.w-\[1136px\] {
+  width: 1136px;
 }
 
 .justify-between {
@@ -604,12 +616,37 @@ video {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#2A7AE4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 122 228 / var(--tw-bg-opacity));
+}
+
 .bg-search-icon {
   background-image: url('../assets/img/search-icon.svg');
 }
 
+.bg-hero-img {
+  background-image: url('../assets/img/geeky-shots-hQ4BQ3wdHsQ-unsplash.jpg');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
 .bg-search-icon-position {
   background-position: 20rem center;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -635,7 +672,42 @@ video {
   padding-right: 1rem;
 }
 
+.pt-\[150px\] {
+  padding-top: 150px;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.font-body {
+  font-family: "Raleway";
+}
+
+.font-\[Raleway\] {
+  font-family: Raleway;
+}
+
+.text-\[52px\] {
+  font-size: 52px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-\[\#2A7AE4\] {
   --tw-text-opacity: 1;
   color: rgb(42 122 228 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#f4f4f5\] {
+  --tw-text-opacity: 1;
+  color: rgb(244 244 245 / var(--tw-text-opacity));
 }
