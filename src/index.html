@@ -41,8 +41,8 @@
       </div>
     </section>
   </header>
-  <main>
-    <section class="pt-16">
+  <main class="py-16 flex flex-col gap-16">
+    <section class="">
       <div class="w-[1133px] m-auto">
         <div class="flex  justify-between">
           <h3 class="text-[#464646;] text-3xl font-bold">
@@ -100,7 +100,7 @@
       </div>
     </section>
 
-    <section class="pt-16">
+    <section class="">
       <div class="w-[1133px] m-auto">
         <div class="flex  justify-between">
           <h3 class="text-[#464646;] text-3xl font-bold">
@@ -158,7 +158,7 @@
       </div>
     </section>
 
-    <section class="pt-16">
+    <section class="">
       <div class="w-[1133px] m-auto">
         <div class="flex  justify-between">
           <h3 class="text-[#464646;] text-3xl font-bold">
@@ -216,5 +216,45 @@
       </div>
     </section>
   </main>
+  <footer class="bg-[#EAF2FD]">
+    <section class="w-[1133px] m-auto flex justify-between py-16">
+      <div>
+        <img src="../assets/img/logo-alura-geek.svg" alt="Alura Geek">
+      </div>
+      <div class="flex flex-col gap-6">
+        <a href="" class="text-[#464646] font-medium">Quem somos nós</a>
+        <a href="" class="text-[#464646] font-medium">Política de privacidade</a>
+        <a href="" class="text-[#464646] font-medium">Programa fidelidade</a>
+        <a href="" class="text-[#464646] font-medium">Nossas lojas</a>
+        <a href="" class="text-[#464646] font-medium">Quero ser franqueado</a>
+        <a href="" class="text-[#464646] font-medium">Anuncie aqui</a>
+      </div>
+      <div class="flex flex-col">
+        <h4 class="text-[#464646] font-bold">Fale conosco</h4>
+        <form action="" class="flex flex-col gap-4 pt-2">
+          <input 
+            type="text" 
+            name="name" 
+            id="name" 
+            placeholder="André Silva"
+            class="bg-white py-2 px-3 rounded w-[560px]"
+          >
+          <textarea 
+            name="message" 
+            id="message"
+            placeholder="Escreva sua mensagem"
+            class="bg-white py-2 px-3 rounded w-[560px] resize-none"  
+          ></textarea>
+          <button type="submit" class="text-white p-4 bg-[#2A7AE4] w-40 mt-2">
+            Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <div class="bg-white py-8 flex justify-center items-center">
+      <p>Desenvolvido por Paulo Figueredo</p>
+    </div>
+  </footer>
 </body>
 </html>
